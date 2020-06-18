@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>	
+<title>MEILI Fashion</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.zoom {
+  padding: 50px;
+  transition: transform .4s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Meili</b> Fashion</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Home</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="Mask abstract.jpg" alt="Mask" width="1500" height="600"><!--change here-->
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-jumbo w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Meili Fashion</b></span></h1>
+
+  </div>
+</header>
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+	<div class="w3-container w3-padding-32" id="about">
+
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <img src="group-people-wearing-mask_173125-38.jpg" alt="Mask" class="w3-opacity-max" style="width: 100%">
+    <p>
+    </p>
+  </div>
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Products:</h3>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">KN95(pchood)</div>
+        <div class="zoom"><img src="pchood.jpg" alt="House" style="width:100%"><!--change here--></div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">KN95(XBS)</div>
+        <div class="zoom"><img src="XBS.jpg" alt="House" style="width:100%"><!--change here--></div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">KN95 with filter</div>
+        <div class="zoom"><img src="filter.jpg" alt="House" style="width:100%"><!--change here--></div>
+      </div>
+    </div>
+    <!-- Contact Section -->
+  <div class="w3-cell-row">
+  <div class="w3-container w3-cell w3-border-topbar w3-border-bottombar" id="contact" style="width: 60% ">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact us:</h3>
+    <p>Feel free to contact us or drop in any query.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container w3-cell">
+	<div clas="w3-display-right">
+ 	<img src="map.jpg" class="w3-border w3-padding" style="width:100%">
+</div>
+</div>
+</div>
+
+<!-- End page content -->
+</div>
+
+
+</body>
+</html>
